@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cb6d1fc1-47ac-4725-984f-e2b7fb3b4e2e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/entities/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/entities/Certificate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/entities/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/entities/PersonalDocument.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/entities/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/entities/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/entities/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/entities/Transfer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/enums/Affiliation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/enums/Level.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/repositories/SchoolRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/repositories/StudentRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/repositories/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/portal/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/portal/src/main/java/com/developer/portal/entities/User.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2R0ASfxNxjo0lF2v9NbQYKyn4dv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Workspace/portal"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cb6d1fc1-47ac-4725-984f-e2b7fb3b4e2e" name="Changes" comment="" />
+      <created>1686376632383</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686376632383</updated>
+    </task>
+    <servers />
+  </component>
+</project>
