@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 import javax.persistence.*;
 import javax.validation.constraints.Email;
 import javax.validation.constraints.NotBlank;
+import java.time.LocalDate;
 
 @Data
 @Builder
@@ -30,6 +31,10 @@ public class User {
     @NotBlank(message = "Password should not be blank")
     private String password;
 
+    @Column
+    @NotBlank(message = "Date should not be blank")
+    private LocalDate dateOfBirth;
+
     @Column(name = "first_name")
     @NotBlank(message = "Name should not be blank")
     private String firstName;
@@ -48,9 +53,26 @@ public class User {
     @Enumerated(EnumType.STRING)
     private Role role;
 
+    @Column(name = "aadhar_number")
+    @NotBlank(message = "Aadhar Number should not be blank")
+    private long aadharNumber;
+
+    @Column(name = "pan_number")
+    @NotBlank(message = "PAN Number should not be blank")
+    private String panNumber;
+
     @ManyToOne
     @JoinColumn(name = "school_dise_code", nullable = true)
     private School school;
+
+    @OneToMany
+    @JoinColumn(name = "guardian_details_id")
+    private GuardianDetails guardianDetails;
+
+    @OneToMany
+    @JoinColumn(name = "contact_id")
+    private Contact contact;
+
 
 //    @OneToOne(
 //            mappedBy = "user",

@@ -49,4 +49,6 @@ public class School {
     @OneToMany(mappedBy = "school")
     private List<User> users;
 
+    @OneToMany(mappedBy = "school")
+    private List<Event> events;
 }

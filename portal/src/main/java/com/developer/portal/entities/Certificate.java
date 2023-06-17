@@ -14,8 +14,11 @@ public class Certificate {
     @Column(name = "certificate_name")
     private String certificateName;
 
+    @Column(name = "certificate_link")
+    private String certificateLink;
+
     @ManyToOne(cascade = CascadeType.ALL)
-    @JoinColumn(name = "student_id")
-    private Student student;
+    @JoinColumn(name = "admission_log_id")
+    private AdmissionLog student;
 
 }
