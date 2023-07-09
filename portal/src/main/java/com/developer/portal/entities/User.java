@@ -72,13 +72,5 @@ public class User {
     @OneToMany
     @JoinColumn(name = "contact_id")
     private Contact contact;
-
-
-//    @OneToOne(
-//            mappedBy = "user",
-//            orphanRemoval = true,
-//            cascade = CascadeType.ALL
-//    )
-//    private Student student;
-
+    
 }
